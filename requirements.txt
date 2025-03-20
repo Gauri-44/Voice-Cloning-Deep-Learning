@@ -1,7 +1,5 @@
-librosa
-numpy
-soundfile
-torch
-torch.nn
-torch.optim
-streamlit
+streamlit==1.19.0
+torch==2.0.1
+librosa==0.9.2
+soundfile==0.12.1
+numpy>=1.21.0
