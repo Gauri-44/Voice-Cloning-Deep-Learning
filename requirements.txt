@@ -1,16 +1,11 @@
-# Specify Python version (Streamlit Cloud will handle it)
-python
 
-# Core dependencies
-streamlit
-numpy
-librosa
-soundfile
-
-# PyTorch
+-f https://download.pytorch.org/whl/cpu
+streamlit==1.19.0
+numpy>=1.21.0,<2.0
+librosa==0.9.2
+soundfile==0.12.1
 torch
-torchaudio
-torchvision
+torchaudio==2.0.1+cpu
+torchvision==0.15.2+cpu
 
-# Optional (for UI enhancements)
 matplotlib
